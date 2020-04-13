@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v1 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/covid.jfif" alt="">
+				</div>
+				<form action="">
+					<h3>Covid-19 Form</h3>
+					<div class="form-wrapper">
+						<input type="number" min ="0" step="1" placeholder="Population" name="data-population" class="form-control" required>
+						<i class="zmdi zmdi-account"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="number" min ="0" step="1"placeholder="time-to-elapse" name="data-time-to-elapse" class="form-control" required>
+						<i class="zmdi zmdi-calendar-check"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="number" min ="0" step="1"placeholder="Reported Cases" name="data-reported-cases" class="form-control" required>
+						<i class="zmdi zmdi-local-wc"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="number" min ="0" step="1" placeholder="Hospital Beds" name="data-total-hospital-beds" class="form-control" required>
+						<i class="zmdi zmdi-local-hotel"></i>
+					</div>
+					<div class="form-wrapper">
+						<select name="data-period-type" id="" class="form-control">
+							<option value="" disabled selected>Period Type</option>
+							<option value="male">Days</option>
+							<option value="femal">Weeks</option>
+							<option value="other">Months</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<button name="data-go-submit">Submit
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
